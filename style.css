@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 28px;
+    background-color: rgba(255, 255, 255, 0.564);  
+    color: black;
+}
+.logo {
+    /* background-color: rgba(240, 248, 255, 0.251); */
+    /* color: black; */
+    padding: 5px 12px;
+    border-radius: 5px;
+
+}
+
+.header .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    
+}
+.header .nav p{
+    font-size: 24px;
+    color: white;
+      /* background-color: rgba(240, 248, 255, 0.251); */
+    padding: 5px 12px 2px 12px;
+    border-radius: 5px;
+}
+.header .logo{
+    font-size: 32px;
+    color: white;
+}
+
+/* -----------------hero-section ------------------- */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 44px;
+}
+.hero-section .left h1{
+    font-size: 94px;
+    color: rgb(245, 246, 245);
+    width: 80%;
+    text-align: center;
+}
+.left h1 strong{
+    color: white;
+}
+.left p{
+    font-size: 22px;
+    background-color: rgba(240, 248, 255, 0.348);
+    border-radius: 10px;
+    margin-top: 56px;
+    width: fit-content;
+    padding: 24px;
+    color: white;
+    text-align: center;
+}
+.left .view p{
+    font-size: 24px;
+    padding: 24px;
+    color: rgb(225, 214, 214);
+    text-align: center;
+    
+}
+.left .view p:hover{
+    color: red;
+    background-color: whitesmoke;
+    transform: translateY(-15px);
+    /* font-size: 34px; */
+    font-weight: 950;
+    /* color: white; */
+}
+.right img{
+    height: 400px;
+    width: fit-content;
+    
+}
+
+
